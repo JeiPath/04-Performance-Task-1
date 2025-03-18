@@ -35,7 +35,7 @@ quiz_1_score = None
 student = StudentInfo(first_name, age, quiz_1_score)
 student.display_info()
 
-quiz_1_score = 3  # Integer value
+quiz_1_score = 3
 student.quiz_1_score = quiz_1_score
 student.update_quiz_status()
 student.display_info()
